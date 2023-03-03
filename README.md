@@ -16,3 +16,16 @@ Length of tetrahedron                 = 9.7   (cm)
 Angle of cube face @ vertex e         = 86.4  (degrees)
 Length of Cube                        = 8.3   (cm)
 ``` 
+
+## Depth_estimation_from_2_view
+The images are captured by fixing a camera at the end of the robot arm. Finding the diameter of the base and the height of the bottle. All the pixel coordinates are extracted using https://pixspy.com tool manually.
+
+The ground truth values of the height and diameter of the bottle are 19.5 cm and 7.6 cm, respectively.
+
+![affine_rectified](/res/depth_estimation.jpg?raw=true "Screenshot")
+
+Results :
+```
+The Height of the bottle   : 19.68 cm
+The Diameter of the bottle : 6.19 cm
+```
